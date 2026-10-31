@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "name": "Debug SMBWatchdog",
+            "target": "SMBWatchdog",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug SMBWatchdog"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "name": "Release SMBWatchdog",
+            "target": "SMBWatchdog",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release SMBWatchdog"
+        }
+    ]
+}
